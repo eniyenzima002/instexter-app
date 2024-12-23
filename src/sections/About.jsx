@@ -2,13 +2,13 @@ import DOne from "../assets/images/d-1.png"
 const About = () => {
     return (
         <div className="w-4/5 m-auto my-20 bg-gradient-to-r from-stone-900 to-stone-950 shadow shadow-stone-900 text-slate-300 px-12 py-6 rounded-lg opacity-80">
-            <div className="flex justify-center gap-10">
+            <div className="flex flex-col xl:flex-row justify-center gap-10">
                 <div className="">
-                    <h1 className="text-6xl font-semibold pb-6">About <span className="italic text-lime-400">Us</span></h1>
-                    <p className="font-extralight text-lg pb-4">
+                    <h1 className="text-3xl md:text-6xl font-semibold pb-6">About <span className="italic text-lime-400">Us</span></h1>
+                    <p className="font-extralight md:text-lg pb-4">
                     We have made it easier for you to create and send Thank You Notes, Celebration Cards, electronic Letters and more. Use our digital pre-designed templates or design your won inside our Studio. 
                     </p>
-                    <p className="font-extralight text-lg pb-4">
+                    <p className="font-extralight md:text-lg pb-4">
                     You also have the ability to create your own templates, Simple Flyers, quick Social Media Posts or design other inspiring arts such as Christmas Cards, Celebration Crads etc...
                     </p>
 
